@@ -30,9 +30,10 @@ class QuizViewController: UIViewController {
         quizArray.append(["お茶はお茶でも語りかけてくるお茶は？", "綾鷹", "お〜いお茶", "午後の紅茶", 2])
         quizArray.append(["油は油でも食べられない油は？", "石油", "背脂", "ごま油", 1])
         //------------------------ここから上にクイズを書く------------------------//
-
-        choiceQuiz()
+        
         quizArray.shuffle()
+        choiceQuiz()
+        
     }
     
     func choiceQuiz() {
